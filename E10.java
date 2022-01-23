@@ -8,20 +8,21 @@ public class E10 {
 		int afilas,acolumnas,bfilas,bcolumnas,val;
 		try {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Ejercicio sobre Matrices ");
 		System.out.println("Matriz A ");
-		System.out.print("Numero de filas: ");
+		System.out.print("Numero de filas (verticales): ");
 		afilas = sc.nextInt();
 		System.out.println();
-		System.out.print("Numero de columnas: ");
+		System.out.print("Numero de columnas (Horizontales): ");
 		acolumnas=sc.nextInt();
 		System.out.println();
 		int [][] a = new int [afilas][acolumnas];
 
 		System.out.println("Matriz B ");
-		System.out.print("Numero de filas: ");
+		System.out.print("Numero de filas (verticales): ");
 		bfilas = sc.nextInt();
 		System.out.println();
-		System.out.print("Numero de columnas: ");
+		System.out.print("Numero de columnas(Horizontales): ");
 		bcolumnas=sc.nextInt();
 		System.out.println();
 		int [][] b = new int [bfilas][bcolumnas];
